@@ -1,5 +1,5 @@
 --- 
-title: "Response Similarity Analysis using R"
+title: "Book Title"
 author: "Cengiz Zopluoglu"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,14 +9,13 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a book about doing response similarity analysis using R."
+description: "Book description..."
 ---
 
 `r if (knitr:::is_html_output()) '
 # Welcome {-}
 '`
-This is a book about doing response similarity analysis in R. This book can be used as a companion to the CopyDetect package, and includes the description of statistical indexes computed by the CopyDetect package. 
-
+...
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
